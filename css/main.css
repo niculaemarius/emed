@@ -5,9 +5,21 @@
 	src: url("./../res/fonts/merienda/Merienda-VariableFont_wght.ttf");
 }
 
-* {
-	font-family: Arial, Helvetica, sans-serif;
+@font-face {
+	font-family: robotoRegular;
+	src: url("./../res/fonts/roboto/Roboto-Regular.ttf");
 }
+
+@font-face {
+	font-family: robotoMedium;
+	src: url("./../res/fonts/roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+	font-family: robotoThin;
+	src: url("./../res/fonts/roboto/Roboto-Thin.ttf");
+}
+
 /* FONTS END */
 
 /* BRANDING LOGO, ICONS START */
@@ -39,6 +51,7 @@
 #topHeader, #branding, #saleLink, #headerContactInfo, #topOptions, #search {
 	display: flex;
 	align-items: center;
+	font-family: robotoThin;
 }
 
 #topHeader {
@@ -153,6 +166,7 @@
 	justify-content: center;
 	align-items: center;
 	background-color: #05d893ff;
+	font-family: robotoRegular;
 }
 
 #mainNav ul li {
@@ -175,3 +189,59 @@
 
 
 /* MAIN NAV END */
+
+/* SHOWCASE START */
+
+#showcaseDisplay {
+	padding: 50px;
+	text-align: center;
+	font-family: robotoThin;
+}
+
+
+
+#showcaseDisplay ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.showcaseItem {
+	text-align: center;
+	padding: 40px 40px 15px 40px;
+	margin-top: 30px;
+	border-bottom: 1px solid lightgray;
+	background-color: ;
+}
+
+.showcaseItem img {
+	width: 240px;
+	height: 240px;
+	margin-bottom: 30px;
+}
+
+.showcaseItem h2 {
+	font-family: robotoMedium;
+	font-size: 1.2em!important;
+	margin-bottom: 30px;
+}
+
+.showcaseItem p {
+	font-family: robotoThin;
+	margin-bottom: 30px;
+}
+
+.showcaseItem span {
+	font-family: robotoRegular;
+	font-style: italic;
+	color: #05b0d9ff;
+}
+
+.showcaseItem button {
+	border: none;
+	background-color: #05d893ff;
+	margin-top: 40px;
+	padding: 10px 30px;
+}
+.
+/* SHOWCASE END */
