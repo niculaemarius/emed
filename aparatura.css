@@ -1,0 +1,28 @@
+/* SHOWCASE NAV START */
+
+#showcase {
+	text-align: center;
+}
+
+#showcaseNav ul {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+	font-family: robotoMedium;
+}
+
+#showcaseNav ul li {
+	margin: 20px;
+}
+
+#showcaseNav ul li span {
+	display: block;
+	margin-top: 30px;
+}
+
+#showcaseSelection {
+	display: flex;
+	justify-content: space-around;
+	font-family: robotoThin;
+}
+/* SHWOCASE NAV END */

@@ -1,0 +1,252 @@
+/* FONTS START */
+
+@font-face {
+	font-family: brandingFont;
+	src: url("./../res/fonts/merienda/Merienda-VariableFont_wght.ttf");
+}
+
+@font-face {
+	font-family: robotoRegular;
+	src: url("./../res/fonts/roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+	font-family: robotoMedium;
+	src: url("./../res/fonts/roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+	font-family: robotoThin;
+	src: url("./../res/fonts/roboto/Roboto-Thin.ttf");
+}
+
+/* FONTS END */
+
+/* BRANDING LOGO, ICONS START */
+
+#branding>img {
+	width: 120px;
+	height: 120px;
+}
+
+#headerContactInfo>img {
+	width: 28px;
+	height: 28px;
+}
+
+#search img {
+	width: 28px;
+	height: 28px;
+}
+
+#saleLink>img, #optionsCart>img, #topOptions>img {
+	width: 42px;
+	height: 42px;
+}
+
+/* BRANDING LOGO, ICONS END */
+
+/* TOP HEADER START */
+
+#topHeader, #branding, #saleLink, #headerContactInfo, #topOptions, #search {
+	display: flex;
+	align-items: center;
+	font-family: robotoThin;
+}
+
+#topHeader {
+	justify-content: space-between;
+}
+
+/* BRANDING START */
+
+#branding>span {
+	font-family: brandingFont;
+	font-size: 2.5em;
+	color: #3E5E79;
+}
+
+/* BRANDING END */
+
+/* SALE LINK START */
+
+#saleLink a {
+	font-size: 1.5em;
+	color: #ff6600;
+	text-decoration: none;
+}
+
+#saleLink a:hover {
+	color: #13D8FF;
+}
+
+/* SALE LINK END */
+
+
+/* HEADER CONTACT INFO START */
+
+#headerContactInfo * {
+	margin: 0px 5px;
+}
+
+.contactNumber a { /* also affects bottom header contact */
+	color: #089a6fff;
+	text-decoration: none;
+}
+
+.contactNumber a:hover {
+	color: #05d893ff;
+}
+
+.contactEmail a { /* also affects bottom header contact */
+	color: #05b0d9ff;
+	text-decoration: none;
+}
+
+.contactEmail a:hover {
+	color: #03708aff;
+}
+
+/* HEADER CONTACT INFO END */
+
+/* TOP OPTIONS START */
+
+#topOptions>* {
+	margin: 0px 10px;
+}
+
+#search {
+	margin-right: 40px;
+}
+
+#search input[type=text] { /* dont need it? */
+	text-align: center;
+	font-style: italic;
+	height: 30px;
+	border: 2px solid black;
+	border-right: none;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	outline: none;
+}
+
+#search button, #search:focus {
+	border: none;
+}
+
+#search button {
+	height: 30px;
+	border: 2px solid black;
+	border-left: none;
+	background-color: ;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#optionsCart {
+	position: relative;
+}
+
+#cartStatus {
+	position: absolute;
+	top: 40%;
+	left: 42%;
+	color: #BA352B;
+}
+
+
+/* TOP OPTIONS END */
+
+/* TOP HEADER END */
+
+/* MAIN NAV START */
+
+#mainNav>ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #05d893ff;
+	font-family: robotoRegular;
+}
+
+#mainNav ul li {
+	margin: 0px 20px;
+}
+
+#mainNav ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 15px;
+}
+
+#mainNav ul li a:hover {
+	background-color: white;
+	color: #05d893ff;
+}
+
+
+/* MAIN NAV END */
+
+/* SHOWCASE START */
+
+#showcaseDisplay {
+	padding: 50px;
+	text-align: center;
+	font-family: robotoThin;
+}
+
+
+
+#showcaseDisplay ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#showcaseDisplayTitle {
+	font-family: robotoRegular;
+	font-size: 2em;
+}
+
+.showcaseItem {
+	text-align: center;
+	padding: 40px 40px 15px 40px;
+	margin-top: 30px;
+	border-bottom: 1px solid lightgray;
+	background-color: ;
+}
+
+.showcaseItem img {
+	width: 240px;
+	height: 240px;
+	margin-bottom: 30px;
+}
+
+.showcaseItem h2 {
+	font-family: robotoMedium;
+	font-size: 1.2em!important;
+	margin-bottom: 30px;
+}
+
+.showcaseItem p {
+	font-family: robotoThin;
+	margin-bottom: 30px;
+}
+
+.showcaseItem span {
+	font-family: robotoRegular;
+	font-style: italic;
+	color: #05b0d9ff;
+}
+
+.showcaseItem button {
+	border: none;
+	background-color: #05d893ff;
+	margin-top: 40px;
+	padding: 10px 30px;
+}
+.
+/* SHOWCASE END */
