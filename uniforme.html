@@ -13,7 +13,7 @@
 
         <link rel="stylesheet" type="text/css" href="./css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="./css/main.css"/>
-        <link rel="stylesheet" type="text/css" href="./css/home.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/uniforme.css"/>
 	</head>
 
 	<body>
@@ -54,36 +54,50 @@
 				<li><a href="./consumabile.html">CONSUMABILE</a></li>
 			</ul>
 		</nav>
-			
-		<div id="videoShowcase">
-			<video autoplay loop muted>
-                <source src="./res/vid/samplevid.mov" type="video/mp4"/>
-                Nu am putut incarca video-ul! :(
-            </video>
-		</div>
 
 		<article id="showcase">
-			<h1>Catalog produse medicale</h1>
-
 			<nav id="showcaseNav">
-				<li><a class="showcaseNavSelected" href=" # ">Uniforme Medicale</a></li>
-				<li><a href=" # ">Saboti Medicali</a></li>
-				<li><a href=" # ">Instrumentar Medical</a></li>
-				<li><a href=" # ">Produse Ortopedice</a></li>
-				<li><a href=" # ">Orteze</a></li>
-				<li><a href=" # ">Stetoscoape</a></li>
-				<li><a href=" # ">Glucometre</a></li>
-				<li><a href=" # ">Ciorapi Meidicinali/compresivi</a></li>
-				<li><a href=" # ">Tensiometre</a></li>
-				<li><a href=" # ">Sticlarie si aparate de masura</a></li>
-				<li><a href=" # ">Termometre</a></li>
-				<li><a href=" # ">Aparate de aerosoli</a></li>
-				<li><a href=" # ">Dispozitive pentru baie si ingrijirea pacientului</a></li>
-				<li><a href=" # ">Produse antiescare</a></li>
+				<ul>
+					<li>
+						<img src="https://placehold.co/280x280" alt="Categorie barbati"/>
+						<span>Barbati</span>
+					</li>
+					<li>
+						<img src="https://placehold.co/280x280" alt="Categorie Femei"/>
+						<span>Femei</span>
+					</li>
+					<li>
+						<img src="https://placehold.co/280x280" alt="Categorie Unisex"/>
+						<span>Unisex</span>
+					</li>
+					<li>
+						<img src="https://placehold.co/280x280" alt="Categorie Unisex"/>
+						<span>Saboti medicali</span>
+					</li>
+				</ul>
 			</nav>
 
+			<ul id="showcaseSelection">
+				<li>
+					<label 	for="sizes">Marimi: </label>
+					<select name="sizes" id="sizes">
+						<option value="S">S</option>
+						<option value="M">M</option>
+						<option value="L">L</option>
+					</select>
+				</li>
+				<li>
+					<label 	for="sorting">Organizare: </label>
+					<select name="sorting" id="sorting">
+						<option value="expensive">Pret Crescator</option>
+						<option value="cheaper">Pret Decrescator</option>
+						<option value="none">Implicita</option>
+					</select>
+				</li>
+			</ul>
+
 			<div id="showcaseDisplay">
-				<h2 id="showcaseDisplayTitle">Uniforme Medicale</h2>
+				<h2 id="showcaseDisplayTitle">Barbati</h2>
 				<ul>
 					<li class="showcaseItem">
 						<img src="https://placehold.co/240x240" alt="Imagine produs lipsa"/>
@@ -168,5 +182,6 @@
 				</ul>
 			</div>
 		</article>
+		
 	</body>
 </html>
